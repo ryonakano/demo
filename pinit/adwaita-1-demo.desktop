@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Adwaita Demo
+Comment=Tour of the features in Libadwaita
+Exec=adwaita-1-demo
+Icon=application-x-executable
+Categories=Development;
+Type=Application
+Terminal=false

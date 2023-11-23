@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=SupertTux
+Comment=Play a classic 2D platform game
+Exec=/run/user/1000/doc/88e7e084/SuperTux-v0.6.3.glibc2.29-x86_64.AppImage
+Icon=/run/user/1000/doc/648e4251/supertux2.svg
+Categories=AudioVideo;Game;
+Type=Application
+Terminal=false
