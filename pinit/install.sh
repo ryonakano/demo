@@ -23,3 +23,8 @@ wget -nc -P $D https://inkscape.org/ja/gallery/item/44616/Inkscape-091e20e-x86_6
 wget -nc -P $D https://gitlab.com/inkscape/inkscape/-/raw/master/packaging/inkscape.48.png.bz2
 bunzip2 $D/inkscape.48.png.bz2
 install -Dm 644 $S/org.inkscape.Inkscape.desktop $D/org.inkscape.Inkscape.desktop
+
+# Krita
+wget -nc -P $D https://download.kde.org/stable/krita/5.2.2/krita-5.2.2-x86_64.appimage
+wget -nc -P $D https://raw.githubusercontent.com/KDE/krita/master/pics/krita.png
+install -Dm 644 $S/org.kde.krita.desktop $D/org.kde.krita.desktop
