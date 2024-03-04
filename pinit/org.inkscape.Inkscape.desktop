@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Name=Inkscape
+GenericName=Vector Graphics Editor
+Comment=Create and edit Scalable Vector Graphics images
+Keywords=image;editor;vector;drawing;
+Type=Application
+Categories=Graphics;VectorGraphics;GTK;
+Exec=/home/ryo/.local/share/applications/Inkscape-091e20e-x86_64.AppImage %F
+Terminal=false
+Icon=/home/ryo/.local/share/applications/inkscape.48.png
+Actions=new-window;
+
+[Desktop Action new-window]
+Name=Open a New Window
+Exec=inkscape
